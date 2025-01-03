@@ -25,7 +25,7 @@ class RegisterController extends Controller
 
         // Отпрявляет письмо на почту для подтверждения пароля
 //        Auth::login($user);
-        dd($request);
+
 
         return redirect()->route('home');
     }
